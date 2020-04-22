@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Documents;
 using System.Windows.Forms;
+using Autodesk.Revit.UI;
 using DevExpress.XtraEditors;
 
 namespace RevitAPISamPle
@@ -18,6 +19,8 @@ namespace RevitAPISamPle
     {
 
         SetParameterViewModel _viewModel;
+        SetParameterEvent _myEvent;
+        ExternalEvent _myExternalEvent;
 
         public SetParameter(SetParameterViewModel viewModel)
         {
@@ -27,6 +30,9 @@ namespace RevitAPISamPle
 
             CbbParameter.DataSource = _viewModel.AllParameterName;
             _viewModel.SelectedParameter = CbbParameter.SelectedItem.ToString();
+
+            _myEvent = new SetParameterEvent();
+            _myExternalEvent = ExternalEvent.Create(_myEvent);
 
         }
 
@@ -63,10 +69,11 @@ namespace RevitAPISamPle
                 return;
             }
 
-            DialogResult = DialogResult.OK;
-
             _viewModel.SelectedParameter = CbbParameter.SelectedItem.ToString();
             _viewModel.TxtStatus = TxtStatus.Text;
+
+            _myEvent.viewModel = _viewModel;
+            _myExternalEvent.Raise();
 
         }
     }

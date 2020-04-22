@@ -60,6 +60,7 @@
     <Compile Include="LIb\ParameterUtils.cs" />
     <Compile Include="LIb\ViewModelBasecs.cs" />
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="SetParameterEvent.cs" />
     <Compile Include="SetParameterViewModel.cs" />
     <Compile Include="SetPrameterCmd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

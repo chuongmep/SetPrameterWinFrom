@@ -25,13 +25,9 @@ namespace RevitAPISamPle
             //code
 
             SetParameterViewModel ViewModel= new SetParameterViewModel(uidoc);
-            SetParameter SetParameter = new SetParameter(ViewModel);
-            DialogResult DialogResult = SetParameter.ShowDialog();
+            SetParameter window = new SetParameter(ViewModel);
+            window.Show();
 
-            if (DialogResult==DialogResult.OK)
-            {
-                ViewModel.SetParameter();
-            }
 
             return Result.Succeeded;
         }
