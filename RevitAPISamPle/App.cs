@@ -39,6 +39,9 @@ namespace RevitAPISamPle
             BitmapImage BitmapImage = new BitmapImage(new Uri("Pack://application:,,,/RevitAPISamPle;component/Resources/icon.png"));
             PushButton.LargeImage = BitmapImage;
 
+            PushButton.ToolTip = "Button Help you Set Parameter for Element";
+            PushButton.LongDescription = "My name is Chuong, Im Writed Addin this and Create For Everyone, Fun!";
+
             return Result.Succeeded;
 
         }
