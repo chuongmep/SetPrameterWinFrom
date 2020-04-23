@@ -96,7 +96,7 @@
             this.BtnSetValue.Name = "BtnSetValue";
             this.BtnSetValue.Size = new System.Drawing.Size(75, 23);
             this.BtnSetValue.TabIndex = 0;
-            this.BtnSetValue.Text = "SetValue";
+            this.BtnSetValue.Text = "Set";
             this.BtnSetValue.Click += new System.EventHandler(this.BtnSetValue_Click);
             // 
             // simpleButton1

@@ -12,7 +12,6 @@ namespace RevitAPISamPle
   internal  class SetParameterEvent  : IExternalEventHandler
 
   {
-
       public SetParameterViewModel viewModel { get; set; }
       public void Execute(UIApplication uiapp)
       {
