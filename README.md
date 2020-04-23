@@ -5,7 +5,7 @@ Content :
 - Introduction RevitAPI 
 - Set Parameter Value Sample
 - Binding Data 
-- Create App
+- Create App Ribbon
 - IExternalCommand
 - IExternalApplication
 - INotifyPropertyChanged
