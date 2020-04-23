@@ -81,7 +81,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="RevitAPISample.addin" />
+    <None Include="SetParameter.addin" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
