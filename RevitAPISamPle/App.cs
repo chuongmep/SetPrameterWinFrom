@@ -12,6 +12,7 @@ using Autodesk.Revit.UI;
 namespace RevitAPISamPle
 {
     [Transaction(TransactionMode.Manual)]
+    [Regeneration(RegenerationOption.Manual)]
     class App : IExternalApplication
     {
         public const string tabname = "AddInSample";

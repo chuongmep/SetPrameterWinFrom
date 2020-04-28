@@ -9,7 +9,7 @@ using String = System.String;
 
 #endregion
 
-namespace SetFloorMEP.Lib
+namespace RevitAPISamPle.LIb
 {
     public static class ParameterUtils
     {
@@ -36,7 +36,6 @@ namespace SetFloorMEP.Lib
                     }
                     catch (Exception)
                     {
-                        //MessageBox.Show(e.ToString());
                         return string.Empty;
                     }
 

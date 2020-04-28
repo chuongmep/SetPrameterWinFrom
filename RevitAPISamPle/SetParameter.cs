@@ -49,11 +49,6 @@ namespace RevitAPISamPle
            
         }
 
-        void Addbinding()
-        {
-            TxtStatus.DataBindings.Add(new Binding("Text", CbbParameter.DataSource, "ValueParameter"));
-        }
-
         private void TxtStatus_EditValueChanged(object sender, EventArgs e)
         {
             

@@ -61,7 +61,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="LIb\ParameterUtils.cs" />
-    <Compile Include="LIb\ViewModelBasecs.cs" />
+    <Compile Include="LIb\ViewModelBase.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="SetParameterEvent.cs" />
     <Compile Include="SetParameterViewModel.cs" />
