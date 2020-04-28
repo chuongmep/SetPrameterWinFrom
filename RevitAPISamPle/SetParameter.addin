@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Application">
-    <Name>Chuongmep</Name>
+    <Name>Chuongmep.com</Name>
     <Assembly>RevitAPISamPle.dll</Assembly>
     <AddInId>fa986d15-ab82-42d8-8c96-c3c542362caf</AddInId>
     <FullClassName>RevitAPISamPle.App</FullClassName>
