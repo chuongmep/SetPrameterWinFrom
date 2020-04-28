@@ -9,8 +9,7 @@ namespace RevitAPISamPle
       public SetParameterViewModel viewModel { get; set; }
       public void Execute(UIApplication uiapp)
       {
-          Document doc = uiapp.ActiveUIDocument.Document;
-
+          
           viewModel.SetParameter();
       }
 

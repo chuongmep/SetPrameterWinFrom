@@ -41,7 +41,7 @@ namespace RevitAPISamPle.LIb
                         }
                         catch (Exception)
                         {
-                            //MessageBox.Show(e.ToString());
+                            
                         }
                     }
                     p.Set(value as ElementId);
